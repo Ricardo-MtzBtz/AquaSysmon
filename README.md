@@ -24,3 +24,8 @@ nano dht22.py
 
 chmod +x /home/pi/run_sensor.sh   #Cambia el nombre y el tipo de formato cual sea su caso 
 
+
+  #Comando que se agrega en los archivos del servidor
+
+UserParameter=temperature.water,/home/pi/run_sensor.sh #cambiar respecto al nombre del script y la ruta en la que se encuentra
+
