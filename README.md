@@ -19,3 +19,8 @@ pip install adafruit-circuitpython-dht Adafruit-Blinka
   #Creacion del codigo para la lectura DTH22
 
 nano dht22.py
+
+  #Comando para dar los permisos necesarios a los scripts para poder ejecutarlos desde cualquier usuario.
+
+chmod +x /home/pi/run_sensor.sh   #Cambia el nombre y el tipo de formato cual sea su caso 
+
